@@ -1,0 +1,81 @@
+.main {
+    @apply
+    bg-red-500
+    w-screen
+    h-screen
+    flex
+    justify-center
+    items-center
+}
+
+.card {
+    @apply
+    w-1/2
+    h-auto
+    bg-gray-700
+    pb-3
+}
+
+.person {
+    @apply
+    text-blue-50
+    text-2xl
+    pt-4
+    pl-4
+    font-light
+    flex
+    items-center
+}
+.person .image{
+    @apply
+    rounded-full
+}
+.user{
+    @apply
+    pl-4
+}
+.user span:first-child {
+    @apply
+    font-medium
+}
+
+.user span:last-child {
+    @apply
+    uppercase
+}
+
+.user p {
+    @apply
+    text-lg
+    text-center
+}
+
+.contact {
+    @apply
+    pt-8
+    flex
+    justify-center
+
+}
+
+.content {
+    @apply
+    flex
+    items-center
+    text-blue-50
+    pb-4
+    px-4
+}
+
+.icons {
+    @apply
+    w-12
+    h-auto
+    pr-2
+}
+.refresh{
+    @apply
+    w-96
+        h-auto
+    bg-gray-700
+}
